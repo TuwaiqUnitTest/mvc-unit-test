@@ -24,6 +24,15 @@ namespace MoviesApp
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/build"; });
+            
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "enable_localhost",
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:3000").AllowAnyOrigin();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,10 +49,10 @@ namespace MoviesApp
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
-
+            app.UseCors("enable_localhost");
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
