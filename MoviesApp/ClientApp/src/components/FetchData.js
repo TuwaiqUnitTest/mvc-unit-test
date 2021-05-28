@@ -9,7 +9,8 @@ export class FetchData extends Component {
   }
 
   componentDidMount() {
-    this.populateWeatherData();
+    // const response = await fetch('movies');
+    // const data = await response.json();
   }
 
   static renderForecastsTable(forecasts) {
