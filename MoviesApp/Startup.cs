@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,7 +29,7 @@ namespace MoviesApp
                 options.AddPolicy(name: "enable_localhost",
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:3000").AllowAnyOrigin();
+                    builder.WithOrigins("https://localhost:44386");
                 });
             });
         }
@@ -59,7 +58,7 @@ namespace MoviesApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "api/v1/{controller=Movies}/{id?:int}");
+                    pattern: "api/v1/{controller=Movies}/{id:int?}");
             });
 
             app.UseSpa(spa =>
