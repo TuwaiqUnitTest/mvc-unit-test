@@ -15,7 +15,7 @@ namespace MoviesApp.Controllers
         }
 
         // GET api/v1/movies/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public ActionResult Show([FromRoute] int id)
         {
             return Ok();
@@ -29,14 +29,14 @@ namespace MoviesApp.Controllers
         }
 
         // PUT api/v1/movies/5
-        [HttpPut("{id}")]
+        [HttpPut("{id:int}")]
         public ActionResult Update([FromRoute] int id)
         {
             return Ok();
         }
 
         // DELETE api/v1/movies/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:int}")]
         public ActionResult Delete([FromRoute] int id)
         {
             return Ok();
