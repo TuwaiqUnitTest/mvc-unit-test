@@ -59,7 +59,7 @@ namespace MoviesApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                    pattern: "api/v1/{controller=Movies}/{id?:int}");
             });
 
             app.UseSpa(spa =>
