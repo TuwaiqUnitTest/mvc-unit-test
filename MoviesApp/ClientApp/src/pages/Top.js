@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Movie from '../components/Movie'
+import React, { Component } from 'react';
+import Movie from '../components/Movie';
 
 export default class Top extends Component {
     static displayName = Top.name;
@@ -32,10 +32,12 @@ export default class Top extends Component {
         
         return (
             <>
-                <div style={{textAlign: 'center'}}>
-                    <h1>Top 10 movies</h1>
+                <div style={{textAlign: 'center'}} className="row w-100">
+                    <h1 className="w-100">Top 10 movies</h1>
                 </div>
-                {contents}
+                <div className="row">
+                    {contents}
+                </div>
             </>
         )
     }
@@ -43,7 +45,6 @@ export default class Top extends Component {
     async populateTopMovies() {
         const response = await fetch('movies?top=true');
         const data = await response.json();
-        console.log(data.$values);
         this.setState({ movies: data.$values, loading: false });
     }
 }
