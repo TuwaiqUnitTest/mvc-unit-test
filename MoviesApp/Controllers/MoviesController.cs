@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,9 +22,20 @@ namespace MoviesApp.Controllers
         
         // GET: api/v1/movies
         [HttpGet]
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index([FromQuery] bool? top)
         {
-            return Ok(await this.db.Movies.Include(movie => movie.Reviews).ToListAsync());
+            List<Movie> movies;
+            
+            if (top.HasValue && top.Value)
+            {
+                movies = await this.db.Movies.Include(movie => movie.Reviews).OrderByDescending(movie => movie.Rating).Take(10).ToListAsync();
+            }
+            else
+            {
+                movies = await this.db.Movies.Include(movie => movie.Reviews).ToListAsync();
+            }
+            
+            return Ok(movies);
         }
 
         // GET api/v1/movies/5
