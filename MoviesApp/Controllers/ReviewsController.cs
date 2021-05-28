@@ -2,8 +2,9 @@
 
 namespace MoviesApp.Controllers
 {
+    [ApiController]
     [Route("api/v1/movies/{movieId:int}/[controller]")]
-    public class ReviewsController : Controller
+    public class ReviewsController : ControllerBase
     {
         // GET: api/v1/movies/1/reviews
         [HttpGet]

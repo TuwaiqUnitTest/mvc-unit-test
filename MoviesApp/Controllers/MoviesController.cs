@@ -4,8 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MoviesApp.Controllers
 {
+    [ApiController]
     [Route("api/v1/[controller]")]
-    public class MoviesController : Controller
+    public class MoviesController : ControllerBase
     {
         // GET: api/v1/movies
         [HttpGet]
