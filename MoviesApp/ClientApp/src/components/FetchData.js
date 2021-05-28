@@ -9,13 +9,12 @@ export class FetchData extends Component {
   }
 
   componentDidMount() {
-    // const response = await fetch('movies');
-    // const data = await response.json();
+    this.populateWeatherData();
   }
 
   static renderForecastsTable(forecasts) {
     return (
-      <h1>Fetch disabled</h1>
+      <h1>forecasts</h1>
     );
   }
 
@@ -31,5 +30,11 @@ export class FetchData extends Component {
         {contents}
       </div>
     );
+  }
+
+  async populateWeatherData() {
+    const response = await fetch('movies');
+    const data = await response.json();
+    this.setState({ forecasts: data, loading: false });
   }
 }
