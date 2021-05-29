@@ -10,10 +10,10 @@ export default class Home extends Component {
     }
     
     componentDidMount() {
-        this.populateTopMovies();
+        this.populateMovies();
     }
 
-    static renderTopTenMovies(movies) {
+    static renderMovies(movies) {
         return (
             <>
                 {
@@ -28,7 +28,7 @@ export default class Home extends Component {
     render() {
         let contents = this.state.loading
             ? <p><em>Loading...</em></p>
-            : Home.renderTopTenMovies(this.state.movies);
+            : Home.renderMovies(this.state.movies);
         
         return (
             <>
@@ -42,7 +42,7 @@ export default class Home extends Component {
         )
     }
 
-    async populateTopMovies() {
+    async populateMovies() {
         const response = await fetch(process.env.REACT_APP_API + 'movies');
         const data = await response.json();
         this.setState({ movies: data.$values, loading: false });
