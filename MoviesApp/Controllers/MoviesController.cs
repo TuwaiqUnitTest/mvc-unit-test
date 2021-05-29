@@ -67,6 +67,7 @@ namespace MoviesApp.Controllers
 
             movie.Name = input.Name;
             movie.CoverURL = input.CoverURL;
+            movie.Rating = input.Rating;
             this.db.Movies.Update(movie);
             await this.db.SaveChangesAsync();
             return Ok(movie);
