@@ -14,6 +14,10 @@ export default class Top extends Component {
     }
 
     static renderTopTenMovies(movies) {
+        if(movies.length == 0) {
+            return <h1>No movies yet</h1>
+        }
+        
         return (
             <>
                 {
