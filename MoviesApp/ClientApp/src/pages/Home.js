@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Movie from '../components/Movie';
 
-
 export default class Home extends Component {
     static displayName = Home.name;
 
@@ -33,8 +32,8 @@ export default class Home extends Component {
         
         return (
             <>
-                <div style={{textAlign: 'center'}} className="row w-100">
-                    <h1 className="w-100">Browse Movies</h1>
+                <div className="row w-100">
+                    <h1 className="w-100 text-center">Browse Movies</h1>
                 </div>
                 <div className="row">
                     {contents}
@@ -44,7 +43,7 @@ export default class Home extends Component {
     }
 
     async populateTopMovies() {
-        const response = await fetch('movies');
+        const response = await fetch(process.env.REACT_APP_API + 'movies');
         const data = await response.json();
         this.setState({ movies: data.$values, loading: false });
     }
