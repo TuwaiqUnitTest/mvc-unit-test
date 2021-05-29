@@ -18,7 +18,7 @@ export default class Top extends Component {
             <>
                 {
                     movies.map((movie, index) =>
-                        <Movie key={index} movie={{name: movie.name, coverURL: movie.coverURL, rating: movie.rating}} />
+                        <Movie key={index} movie={movie} />
                     )
                 }
             </>
