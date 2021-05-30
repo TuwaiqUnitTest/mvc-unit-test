@@ -1,0 +1,31 @@
+﻿<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in (List<ProductModel>)ViewData["Products"])
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Title</td>
+                <td>@product.Description</td>
+                <td>SAR @product.Price</td>
+                <td>@product.Category.Title</td>
+                <td>
+                    <img width="150" height="150" src="@product.Image" alt="@product.Title" />
+                </td>
+                <td>
+                    <a class="btn btn-primary" href="Products/Details/@product.Id">Show</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
