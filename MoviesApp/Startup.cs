@@ -59,7 +59,7 @@ namespace MoviesApp
                 app.UseHsts();
             }
 
-            // app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
             app.UseCors("enable_localhost");
