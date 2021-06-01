@@ -8,7 +8,7 @@ export default class Review extends Component {
         return (
             <>
                 <CardTitle tag="h5">Author: {review.author}</CardTitle>
-                <CardText>Review: {review.content}</CardText>
+                <CardText style={{whiteSpace: "pre-wrap"}}>Review: {review.content}</CardText>
             </>
         )
     }

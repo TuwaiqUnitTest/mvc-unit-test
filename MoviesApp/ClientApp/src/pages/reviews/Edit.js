@@ -6,7 +6,9 @@ export default class edit extends Component {
     constructor(props) {
         super(props);
         
-        this.state = {review: {
+        this.state = {
+            movie: this.props.location.state.movie,
+            review: {
             ID: this.props.location.state.review.id,
             MovieID: this.props.location.state.review.movieID,
             Author: this.props.location.state.review.author,
@@ -16,7 +18,7 @@ export default class edit extends Component {
 
     render() {
         if(this.state.redirect) {
-            return <Redirect to = {{ pathname: "/Reviews" }} />;
+            return <Redirect to = {{ pathname: "/"}} />;
         }
 
         const review = this.state.review;
@@ -30,7 +32,7 @@ export default class edit extends Component {
                     </FormGroup>
                     <FormGroup>
                         <Label>Review</Label>
-                        <Input type="textarea" name="content" id="content" value={review.Content} placeholder="content" onChange={(event) => this.updateContent(event)}/>
+                        <Input style={{whiteSpace: "pre-wrap"}} type="textarea" name="content" id="content" value={review.Content} placeholder="content" onChange={(event) => this.updateContent(event)}/>
                     </FormGroup>
                     <Button onClick={() => this.updateReview()} color="primary">Submit</Button>
                 </Form>
@@ -61,6 +63,11 @@ export default class edit extends Component {
 
     async updateReview() {
         const review = this.state.review;
+        const movie = this.state.movie;
+
+        movie.reviews.$values = movie.reviews.$values.filter((value, index) => {
+            return value.id == review.ID ? review : value;
+        });
 
         fetch(process.env.REACT_APP_API + `movies/${review.MovieID}/reviews/${review.ID}`,
         {
@@ -71,6 +78,6 @@ export default class edit extends Component {
             }
         });
         
-        this.setState({redirect: true});
+        this.setState({movie: movie, redirect: true});
     }
 }

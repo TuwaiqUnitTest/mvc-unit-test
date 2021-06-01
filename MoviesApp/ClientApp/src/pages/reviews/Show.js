@@ -8,7 +8,13 @@ export default class Reviews extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {movie: this.props.location.state.movie, targetReview: null, edit: false, create: false};
+        
+        this.state = {
+            movie: this.props.location.state.movie,
+            targetReview: null,
+            edit: false,
+            create: false
+        };
     }
 
     render() {
@@ -17,7 +23,7 @@ export default class Reviews extends Component {
         if(this.state.create) {
             return <Redirect to = {{ pathname: "/create-review", state: { movie: movie } }} />;
         } else if(this.state.edit) {
-            return <Redirect to = {{ pathname: "/edit-review", state: { review: this.state.targetReview } }} />;
+            return <Redirect to = {{ pathname: "/edit-review", state: { movie: this.state.movie, review: this.state.targetReview } }} />;
         }
 
         if(movie.reviews.$values.length == 0) {
