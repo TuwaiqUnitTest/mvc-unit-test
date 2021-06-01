@@ -4,6 +4,8 @@ import { Layout } from './components/Layout';
 import Home from './pages/Home';
 import Top from './pages/Top';
 import Reviews from './pages/reviews/Show';
+import CreateReview from './pages/reviews/Create';
+import EditReview from './pages/reviews/Edit';
 
 import './custom.css';
 
@@ -18,6 +20,8 @@ export default class App extends Component {
         <Route exact path='/' component={Home} />
         <Route path='/top-movies' component={Top}/>
         <Route path='/reviews' component={Reviews} />
+        <Route path='/create-review' component={CreateReview} />
+        <Route path='/edit-review' component={EditReview} />
       </Layout>
     );
   }
