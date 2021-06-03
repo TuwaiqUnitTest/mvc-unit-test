@@ -39,6 +39,8 @@ namespace ECommerce_ASPNET.Controllers
 
         public IActionResult Details(int id)
         {
+            if (id < 0) return NotFound();
+
             ViewData["Product"] = Products().FirstOrDefault(p => p.Id == id);
 
             if (ViewData["Product"] == null) return NotFound();
