@@ -64,13 +64,11 @@ namespace MoviesApp.Migrations
 
             modelBuilder.Entity("MoviesApp.Models.Review", b =>
                 {
-                    b.HasOne("MoviesApp.Models.Movie", "movie")
+                    b.HasOne("MoviesApp.Models.Movie", null)
                         .WithMany("Reviews")
                         .HasForeignKey("MovieID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("movie");
                 });
 
             modelBuilder.Entity("MoviesApp.Models.Movie", b =>
