@@ -1,0 +1,38 @@
+﻿
+
+@{
+   var DM =(DramaMovieModel) ViewData["DramaMovie"] ;
+
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DramaMovie</h4>
+    <hr />
+    <dl class="row">
+        
+        <dd class = "col-sm-10">
+            @DM.Id
+        </dd>
+       
+        <dd class = "col-sm-10">
+            @DM.Title
+        </dd>
+      
+        <dd class = "col-sm-10">
+            @DM.Rating
+        </dd>
+       
+        <dd class = "col-sm-10">
+            @DM.Director
+        </dd>
+       
+        <dd class = "col-sm-10">
+            <img src=@DM.Img height="200" width="200"/>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

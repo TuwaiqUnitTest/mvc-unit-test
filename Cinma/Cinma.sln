@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinma", "Cinma\Cinma.csproj", "{E41F730D-3B6E-46D7-988A-55D11FDC23E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCinma", "TestCinma\TestCinma.csproj", "{1E4B3469-051D-4116-B4EF-69926CD70F18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E41F730D-3B6E-46D7-988A-55D11FDC23E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41F730D-3B6E-46D7-988A-55D11FDC23E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41F730D-3B6E-46D7-988A-55D11FDC23E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41F730D-3B6E-46D7-988A-55D11FDC23E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4B3469-051D-4116-B4EF-69926CD70F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4B3469-051D-4116-B4EF-69926CD70F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4B3469-051D-4116-B4EF-69926CD70F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4B3469-051D-4116-B4EF-69926CD70F18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5C8DA6E-106C-4723-99E6-438341CD0C1C}
+	EndGlobalSection
+EndGlobal

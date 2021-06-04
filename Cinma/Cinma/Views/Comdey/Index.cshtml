@@ -1,0 +1,30 @@
+﻿   @{ var Model = (List<ComedyMovieModel>)ViewData["comdeyLis"];
+
+   }
+    <h1>Comdey Movie List</h1>
+
+    <p>
+    </p>
+    @foreach (var item in Model)
+    {
+        <div class="container-md text-center">
+            <div class="card mb-5 gx-1" style="align-content:center">
+                <h3 class="card-header" style="padding: -15%"> @Html.DisplayFor(modelItem => item.Title)</h3>
+                <div class="card-body" style="align-content:center">
+                    <div class="container justify-content-md-center">
+
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Rating)</h5>
+                        <h6 class="card-subtitle text-muted">
+                            @Html.DisplayFor(modelItem => item.Director)
+                        </h6>
+
+
+                        <img src="@Html.DisplayFor(modelItem => item.Img)" width="200" height="300" style="align-content: center; margin:20px" />
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-text"> @Html.ActionLink("Details", "Details", new { id = item.Id })</p>
+                </div>
+            </div>
+        </div>
+    }

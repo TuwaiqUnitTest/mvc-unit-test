@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div style="margin:200px">
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>This is the first version of the renting Movies Website.</p>
+    </div>
+
+</div>
+
+<div class="row" style="align-content:center">
+    <div class="col-sm">
+        <div class="card text-white bg-dark mb-3" style="max-width: 20rem; margin-right:-25%;">
+            <div class="card-header">Drama Movies</div>
+            <div class="card-body">
+                <h4 class="card-title"><a asp-controller="Drama" asp-action="Index">Go to th Movie List</a></h4>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-sm" style="">
+        <div class="card text-white bg-dark mb-3" style="max-width: 20rem; margin-left:-25%;margin-right:-25%;">
+            <div class="card-header">Comdey Movies</div>
+            <div class="card-body">
+                <h4 class="card-title"><a asp-controller="Comdey" asp-action="Index">Go to th Movie List</a></h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+        <div class="card text-white bg-dark mb-3" style="max-width: 20rem; margin-left:-50%;">
+            <div class="card-header">Action Movies</div>
+            <div class="card-body">
+                <h4 class="card-title">Cooming Soon....</h4>
+            </div>
+        </div>
+       
+    </div>
