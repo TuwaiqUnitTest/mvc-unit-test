@@ -53,7 +53,7 @@ namespace MoviesApp.Controllers
                 .FirstOrDefaultAsync(movie => movie.ID == id);
 
             if (movie == null)
-                NotFound();
+                return NotFound();
             
             return Ok(movie);
         }
