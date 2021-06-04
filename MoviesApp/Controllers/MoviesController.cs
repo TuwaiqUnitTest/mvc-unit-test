@@ -47,10 +47,15 @@ namespace MoviesApp.Controllers
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Movie>> Show([FromRoute] int id)
         {
-            return Ok(await this.db.Movies.Include(movie => movie.Reviews)
+            Movie movie = await this.db.Movies.Include(movie => movie.Reviews)
                 .Include(movie => movie.Cast)
                 .Include(movie => movie.Cast.Actors)
-                .FirstOrDefaultAsync(movie => movie.ID == id));
+                .FirstOrDefaultAsync(movie => movie.ID == id);
+
+            if (movie == null)
+                NotFound();
+            
+            return Ok(movie);
         }
 
         // POST api/v1/movies
