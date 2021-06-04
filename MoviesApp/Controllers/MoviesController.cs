@@ -28,11 +28,16 @@ namespace MoviesApp.Controllers
             
             if (top.HasValue && top.Value)
             {
-                movies = await this.db.Movies.Include(movie => movie.Reviews).OrderByDescending(movie => movie.Rating).Take(10).ToListAsync();
+                movies = await this.db.Movies.Include(movie => movie.Reviews)
+                    .Include(movie => movie.Cast)
+                    .Include(movie => movie.Cast.Actors)
+                    .OrderByDescending(movie => movie.Rating).Take(10).ToListAsync();
             }
             else
             {
-                movies = await this.db.Movies.Include(movie => movie.Reviews).ToListAsync();
+                movies = await this.db.Movies.Include(movie => movie.Reviews)
+                    .Include(movie => movie.Cast)
+                    .Include(movie => movie.Cast.Actors).ToListAsync();
             }
             
             return Ok(movies);
@@ -42,7 +47,10 @@ namespace MoviesApp.Controllers
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Movie>> Show([FromRoute] int id)
         {
-            return Ok(await this.db.Movies.Include(movie => movie.Reviews).FirstOrDefaultAsync(movie => movie.ID == id));
+            return Ok(await this.db.Movies.Include(movie => movie.Reviews)
+                .Include(movie => movie.Cast)
+                .Include(movie => movie.Cast.Actors)
+                .FirstOrDefaultAsync(movie => movie.ID == id));
         }
 
         // POST api/v1/movies

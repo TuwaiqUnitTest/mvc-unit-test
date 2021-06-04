@@ -8,6 +8,7 @@ namespace MoviesApp.Models
         public string Name { get; set; }
         public string CoverURL { get; set; }
         public int Rating { get; set; }
+        public Cast Cast { get; set; }
         public ICollection<Review> Reviews { get; set; }
     }
 }

@@ -11,5 +11,7 @@ namespace MoviesApp.Data
         
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<Cast> Casts { get; set; }
+        public DbSet<Actor> Actors { get; set; }
     }
 }
