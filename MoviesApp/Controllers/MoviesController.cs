@@ -22,7 +22,7 @@ namespace MoviesApp.Controllers
         
         // GET: api/v1/movies
         [HttpGet]
-        public async Task<ActionResult> Index([FromQuery] bool? top)
+        public async Task<ActionResult<List<Movie>>> Index([FromQuery] bool? top)
         {
             List<Movie> movies;
             
@@ -40,14 +40,14 @@ namespace MoviesApp.Controllers
 
         // GET api/v1/movies/5
         [HttpGet("{id:int}")]
-        public async Task<ActionResult> Show([FromRoute] int id)
+        public async Task<ActionResult<Movie>> Show([FromRoute] int id)
         {
             return Ok(await this.db.Movies.Include(movie => movie.Reviews).FirstOrDefaultAsync(movie => movie.ID == id));
         }
 
         // POST api/v1/movies
         [HttpPost]
-        public async Task<ActionResult> Create([FromBody] Movie movie)
+        public async Task<ActionResult<Movie>> Create([FromBody] Movie movie)
         {
             // TODO validate data
             await this.db.Movies.AddAsync(movie);
@@ -57,7 +57,7 @@ namespace MoviesApp.Controllers
 
         // PUT api/v1/movies/5
         [HttpPut("{id:int}")]
-        public async Task<ActionResult> Update([FromRoute] int id, [FromBody] Movie input)
+        public async Task<ActionResult<Movie>> Update([FromRoute] int id, [FromBody] Movie input)
         {
             // TODO validate data
             Movie movie = await this.db.Movies.FirstOrDefaultAsync(movie => movie.ID == id);
@@ -75,7 +75,7 @@ namespace MoviesApp.Controllers
 
         // DELETE api/v1/movies/5
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult> Delete([FromRoute] int id)
+        public async Task<ActionResult<Movie>> Delete([FromRoute] int id)
         {
             Movie movie = await this.db.Movies.FirstOrDefaultAsync(movie => movie.ID == id);
             

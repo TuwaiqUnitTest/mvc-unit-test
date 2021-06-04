@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +13,7 @@ namespace MoviesApp.Controllers
     public class ReviewsController : ControllerBase
     {
         private MoviesContext db { get; }
-
+        
         public ReviewsController(MoviesContext db)
         {
             this.db = db;
@@ -20,19 +21,19 @@ namespace MoviesApp.Controllers
         
         // GET: api/v1/movies/1/reviews
         [HttpGet]
-        public async Task<IActionResult> Index([FromRoute] int movieId)
+        public async Task<ActionResult<List<Review>>> Index([FromRoute] int movieId)
         {
             Movie movie = await this.db.Movies.Include(movie => movie.Reviews).FirstOrDefaultAsync(movie => movie.ID == movieId);
 
             if (movie == null)
                 return NotFound();
             
-            return Ok(movie.Reviews.ToList());
+            return Ok(movie.Reviews.ToList<Review>());
         }
 
         // GET api/v1/movies/1/reviews/5
         [HttpGet("{id:int}")]
-        public async Task<IActionResult> Show([FromRoute] int movieId, [FromRoute] int id)
+        public async Task<ActionResult<Review>> Show([FromRoute] int movieId, [FromRoute] int id)
         {
             Movie movie = await this.db.Movies.Include(movie => movie.Reviews).FirstOrDefaultAsync(movie => movie.ID == movieId);
 
@@ -49,7 +50,7 @@ namespace MoviesApp.Controllers
 
         // POST api/v1/movies/1/reviews
         [HttpPost]
-        public async Task<IActionResult> Create([FromRoute] int movieId, [FromBody] Review input)
+        public async Task<ActionResult<Review>> Create([FromRoute] int movieId, [FromBody] Review input)
         {
             // TODO validate data
             Movie movie = await this.db.Movies.Include(movie => movie.Reviews).FirstOrDefaultAsync(movie => movie.ID == movieId);
@@ -69,7 +70,7 @@ namespace MoviesApp.Controllers
 
         // PUT api/v1/movies/1/reviews/5
         [HttpPut("{id:int}")]
-        public async Task<IActionResult> Update([FromRoute] int movieId, [FromRoute] int id, [FromBody] Review input)
+        public async Task<ActionResult<Review>> Update([FromRoute] int movieId, [FromRoute] int id, [FromBody] Review input)
         {
             // TODO validate data
             Movie movie = await this.db.Movies.Include(movie => movie.Reviews).FirstOrDefaultAsync(movie => movie.ID == movieId);
@@ -91,7 +92,7 @@ namespace MoviesApp.Controllers
 
         // DELETE api/v1/movies/1/reviews/5
         [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete([FromRoute] int movieId, [FromRoute] int id)
+        public async Task<ActionResult<Review>> Delete([FromRoute] int movieId, [FromRoute] int id)
         {
             Movie movie = await this.db.Movies.Include(movie => movie.Reviews).FirstOrDefaultAsync(movie => movie.ID == movieId);
             
