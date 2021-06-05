@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    var anime = (List<Anime>) ViewData["list"];
+    var isuser = ViewData["user"] ?? false;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Anime list</title>
+</head>
+<body>
+@if (!(bool) isuser)
+{
+    <form class="example" style="width: 60em ; padding: 1em">
+        <input style="background:#EFF6EE" type="text" placeholder="Search.." name="search" id="searchname">
+        <button id="searchbtn" style="background-color: #F02D3A;width: 5em" type="button"><i class="fa fa-search"></i></button>
+    </form>
+}
+<div class="row d-flex container ">
+    @foreach (Anime a in anime)
+    {
+        <div class="card-deck" style=" width: 20em; padding: 1em">
+            <div style="background-color:#EFF6EE" class="card">
+                <img class="card-img-top" src="@a.image_url" height="200" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@a.title</h5>
+                    <p class="card-text">
+                        <small class="text-muted">Score: @a.score</small>
+                    </p>
+                    <a href="https://localhost:5001/anime/details/@a.id" class="btn btn-primary">Details</a>
+                    @if (!(bool) isuser)
+                    {
+                        <button onclick="addfav(@a.id)" data-toggle="modal" data-target=".bd-example-modal-sm" data-dismiss="alert" class="btn btn-outline-success">Favorite</button>
+                    }
+                    else
+                    {
+                        <button onclick="removefav(@a.id)" data-toggle="modal" data-target=".bd-example-modal-sm" data-dismiss="alert" class="btn btn-danger">Remove</button>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div id="popup" class="alert alert-success alert-dismissible fade show" style=" opacity: 0; position: fixed; bottom: 0;right: 0">
+    <strong>Success!</strong> This Anime has been added to your Favorites list.
+</div>
+<div id="popupre" class="alert alert-danger alert-dismissible fade show" style=" opacity: 0; position: fixed; bottom: 0;right: 0">
+    <strong>Success!</strong> This Anime has been removed from your Favorites list.
+</div>
+</body>
+</html>
