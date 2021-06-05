@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "_myLayout";
+    var book = (Book)ViewData["book"];
+
+    var desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae voluptatibus officiis, autem quam tenetur explicabo minima a doloribus id soluta voluptates perspiciatis exercitationem ea cum inventore repellendus, accusamus odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur quisquam perspiciatis, veniam laboriosam officiis similique corrupti doloribus porro aut perferendis omnis quis. Officiis ea inventore modi aut ipsa deserunt.";
+}
+
+<br />
+
+<div class="row">
+    <div class="col-lg-4">
+        <img src="@book.image" alt="book image" width="350px"/>
+    </div>
+    <div class="col-8">
+        <br />
+        <h1>@book.name</h1>
+        <h3>Author: <a href="/authors/detail/@book.author.Id">@book.author.FullName</a></h3>
+        <p>@desc</p>
+        <h3>$@book.price</h3>
+
+        <a class="btn btn-secondary" href="/books" role="button">Go Back</a>
+    </div>
+</div>

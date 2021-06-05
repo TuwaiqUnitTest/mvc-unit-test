@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "_myLayout";
+    var quotes = (List<Quotes>)ViewData["quotes"];
+    var rnd = new Random();
+    int num = rnd.Next(0, quotes.Count - 1);
+}
+
+<br />
+<h1 class="display-4">Welcome to the Bookstore!</h1>
+
+<p class="lead">
+    Relax. Read. Enjoy.
+</p>
+
+<a class="btn btn-info" href="/books" role="button">See all books <i class="fas fa-chevron-right pl-2"></i> </a>
+
+
+
+<hr />
+
+<figure class="text-center">
+    <blockquote class="blockquote">
+        <p>@quotes[num].text.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+        @quotes[num].author.
+    </figcaption>
+</figure>

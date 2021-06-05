@@ -1,0 +1,13 @@
+﻿@{
+
+    Layout = "_myLayout";
+    var allAuthors = (List<Author>)ViewData["allAuthors"];
+
+}
+
+
+@foreach (var auth in allAuthors)
+{
+
+    <h5> @auth.Id. @auth.FullName</h5>
+}

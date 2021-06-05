@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Project01_ASP.NET_MVC.Models.Book>
+
+@{
+    var allBooks = (List<Book>)ViewData["allBooks"];
+    Layout = "_myLayout";
+}
+
+
+
+<br />
+
+<div class="row">
+
+    @foreach (var book in allBooks)
+    {
+
+        <div class="col-md-3 mb-5">
+
+            <div class="card bg-light text-dark">
+
+                <img src=@book.image
+                     class="card-img-top p-1"
+                     alt="book image"
+                     width="200px"
+                     height="250px" />
+
+                <div class="card-body">
+                    <h5 class="card-title book-name">@book.name</h5>
+                    <b class="author-name">Author: <a href="/authors/detail/@book.author.Id"> @book.author.FullName </a> </b>
+                    <p class="card-text text-right price-tag">$@book.price</p>
+                    <div class="text-center">
+                        <a href="/books/detail/@book.Id" class="btn btn-primary ">
+                            More Info
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    }
+
+
+</div>
+
+
+    <br />
+    <br />

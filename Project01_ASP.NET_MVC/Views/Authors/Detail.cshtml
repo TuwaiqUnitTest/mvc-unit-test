@@ -1,0 +1,19 @@
+﻿@{
+
+    var author = (Author)ViewData["author"];
+    Layout = "_myLayout";
+}
+<br />
+<div class="ml-5">
+
+    <h1>@author.FullName</h1>
+
+    <div>Contact the author: </div>
+
+    <ul>
+        <li>Email: @author.Email</li>
+        <li>Phone: @author.Phone</li>
+    </ul>
+    <br />
+    <a class="btn btn-secondary" href="/books" role="button">Go Back</a>
+</div>
