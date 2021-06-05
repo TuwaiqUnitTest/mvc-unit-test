@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimeInfo", "AnimeInfo.csproj", "{924A2BA0-9C21-40C1-9235-30E5D27B516F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeInfo_Test", "..\AnimeInfo_Test\AnimeInfo_Test.csproj", "{07F1721E-640E-4ECC-815D-EF9F9EB36F74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924A2BA0-9C21-40C1-9235-30E5D27B516F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924A2BA0-9C21-40C1-9235-30E5D27B516F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924A2BA0-9C21-40C1-9235-30E5D27B516F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924A2BA0-9C21-40C1-9235-30E5D27B516F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F1721E-640E-4ECC-815D-EF9F9EB36F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F1721E-640E-4ECC-815D-EF9F9EB36F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F1721E-640E-4ECC-815D-EF9F9EB36F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F1721E-640E-4ECC-815D-EF9F9EB36F74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47CDB372-B47B-4CDA-99D1-94EF6EB62F06}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xGuvel2SUuherlIf0x6zY+b2GxGdcecy48MfQr+2E32e9guEIls4HfhOt+BC/qjnS1ROmn256mWDayYt/xuwyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\96658\\Desktop\\New folder\\Project01_ASP.NET_MVC\\AnimeInfo\\AnimeInfo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\96658\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

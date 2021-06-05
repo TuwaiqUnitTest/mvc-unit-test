@@ -1,0 +1,51 @@
+﻿@{
+    var title = ViewData["title"];
+    var text = ViewData["text"];
+    var phonenumber = ViewData["phonenumber"];
+    var github = ViewData["github"];
+    var email = ViewData["email"];
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./css/AboutMe.css">
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div class='container-wrapper'>
+        <div class='container'>
+            <h1>
+                @title
+            </h1>
+            <p>
+                @text
+            </p>
+            <ul>
+
+                <li>
+                    <a href='@github'>
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href=''>
+                        @phonenumber
+                    </a>
+                </li>
+                <li>
+                    <a href='mailto:@email'>
+                        Email
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- partial -->
+
+</body>
+</html>
+

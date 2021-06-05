@@ -1,0 +1,77 @@
+﻿@{ 
+    var AnimeList = ViewData["AnimeList"] as IList<Top>;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <header>
+    </header>
+
+    <!-- partial:index.partial.html -->
+    <div class="wrapper">
+
+        <h2><strong>Top Upcoming Animes<span>( @AnimeList.Count )</span></strong></h2>
+        
+            <div class="cards">
+               @{ 
+                   foreach (var item in AnimeList)
+                   {
+                               <figure class="card">
+
+                                   <img src="@item.image_url" />
+
+                                   <div class="descriptions">
+                                       <h1>@item.title</h1>
+                                       <p style="font-size:20px;">
+                                           Rank : @item.rank <br>
+                                           Release Date : @item.start_date
+                                       </p>
+
+
+                                   </div>
+
+                                   <figcaption>
+                                       
+                                       <p>
+                                           Type : @item.type
+                                       </p>
+                                       
+                                   </figcaption>
+
+                               </figure>
+                   }
+               }
+            </div>
+        
+        <h2><strong>Vidoes</strong></h2>
+
+        <div class="news">
+
+            <figure class="article">
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/ATJYac_dORw?modestbranding=1&showinfo=0&rel=0" width="370" height="230" frameborder="0"></iframe>
+                </div>
+            </figure>
+
+            <figure class="article">
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/M_OauHnAFc8?modestbranding=1&showinfo=0&rel=0" width="370" height="230" frameborder="0"></iframe>
+                </div>
+            </figure>
+
+        </div>
+
+    </div>
+    <!-- partial -->
+
+</body>
+</html>
