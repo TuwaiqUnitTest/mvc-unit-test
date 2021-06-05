@@ -1,0 +1,13 @@
+﻿@{ 
+    ViewData["title"] = "Create Student";
+}
+
+<form class="form-inline my-3" asp-action="CreateStudent" asp-controller="Students">
+    <label for="FirstName">First Name: </label>
+    <input class="form-control mr-sm-2" name="FirstName" placeholder="First Name" aria-label="" />
+    <label for="LastName">Last Name: </label>
+    <input class="form-control mr-sm-2" name="LastName" placeholder="Last Name" aria-label="" />
+    <label for="Email">Email: </label>
+    <input class="form-control mr-sm-2" name="Email" placeholder="Email" aria-label="" />
+    <button class="btn btn-success my" type="submit">Add</button>
+</form>
