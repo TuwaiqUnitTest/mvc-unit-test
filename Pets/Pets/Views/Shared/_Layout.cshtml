@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+    </style>
+</head>
+<body style="background-image: url(https://img.freepik.com/free-vector/cute-paw-footprint-seamless-pattern-background_42349-767.jpg?size=338&ext=jpg)" >
+         <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <p class="navbar-brand text-warning" style="font-size:28px; font-weight:bold;">Pets Houses</p>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index" style="font-size:22px">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Pets" asp-action="PetsPage" style="font-size:22px">pets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Admin" asp-action="SignIn" style="font-size:22px">Admin</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="border-top footer text-muted" style="background-color: #F5EBEB">
+            <div class="container">
+                &rarr; contact us : +966 667 333 888
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

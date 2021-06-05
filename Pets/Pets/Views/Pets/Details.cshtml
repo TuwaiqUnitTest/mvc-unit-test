@@ -1,0 +1,16 @@
+﻿@{
+        var Pet = (PetsInfoModel)ViewData["Pet"];
+    <div style="margin-left:35%" >
+        <div class="card" style="width: 18rem; ">
+            <img class="card-img-top" style="width:150px;height:150px;" src="@Pet.image">
+            <div class="card-body">
+                <p class="card-title">Name :@Pet.name </p>
+                <p class="card-text">Pet type :@Pet.type </p>
+                <p class="card-text">Seller Name : @Pet.seller</p>
+                <p class="card-text">location : @Pet.location</p>
+                <a class="btn btn-primary">@Pet.phoneNo </a>
+            </div>
+        </div>
+    </div>
+
+}

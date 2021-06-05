@@ -1,0 +1,20 @@
+﻿@page
+@model Pets.Views.Admin.SignInModel
+@{
+    <div class="container">
+        <form action="/admin/edit?">
+            <fieldset>
+                <div class="form-group">
+                    <p class="text-success"style=" font-size:25px">Sign In Please :</p>
+                    <label for="email1" class="text-danger">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="text-danger">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                </div>
+                <button type="submit" value="Submit" class="btn btn-outline-info">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+}

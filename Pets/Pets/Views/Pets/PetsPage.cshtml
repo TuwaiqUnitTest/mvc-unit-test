@@ -1,0 +1,32 @@
+﻿@*
+@{
+    var PetsInfo = (List<PetsInfoModel>)ViewData["PetsInfo"];
+    <br />
+    <h5 style="font-weight:bold" class="text-center">who would you like to adopt ?</h5>
+    <hr />
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Pet Name</th>
+                <th scope="col">Type</th>
+                <th scope="col">Location</th>
+                <th scope="col">Image</th>
+                <th scope="col">view details</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Pet in PetsInfo)
+            {
+                <tr>
+                    <th>@Pet.name</th>
+                    <td>@Pet.type</td>
+                    <td>@Pet.location</td>
+                    <td><img style="width:100px;height:100px;" src="@Pet.image" /></td>
+                    <td><a href="/Pets/details/@Pet.id"><button type="button" class="btn btn-info">More Details ..</button></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+*@
