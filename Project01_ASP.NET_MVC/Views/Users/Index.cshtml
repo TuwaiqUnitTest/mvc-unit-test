@@ -1,0 +1,28 @@
+﻿@{
+    var Users = (UserModel)ViewData["User"];
+    Layout = "_LayoutDesign";
+}
+
+<div class="card-group" style="margin-bottom:20px; margin-top:20px;">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">المعلومات الشخصية:</h5>
+            <div  style="text-align:right; margin-right:160px">
+            <p class="card-title">الأسم: @Users.Name</p>
+            <p class="card-text"> الايميل : @Users.Email</p>
+            <p class="card-text"> الرقم : @Users.PhoneNumber</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="card-body">
+            <h5 class="card-title">اقتباس:</h5>
+            <p class="card-text">"كل شيء في حياتك يجب عليه انتظارك إلا الأحلام تنتظر كل يوم أن تخطو خطوة إليها"</p>
+            <a href="/Products" class="btn btn-primary btn-color">الكتب</a>
+        </div>
+    </div>
+</div>
+
+
+

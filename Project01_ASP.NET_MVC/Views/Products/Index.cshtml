@@ -1,0 +1,27 @@
+﻿@{
+    var products = (List<productModel>)ViewData["products"];
+    Layout = "_LayoutDesign";
+}
+
+
+
+<table class="table table-striped table-hover" dir="rtl">
+    <div class="container">
+        <div class="row">
+
+            @foreach (var item in products)
+            {
+
+                <div class="card col-3" style="width: 18rem;">
+                    <img src="@item.Image" class="card-img-top" alt="@item.Image" width="210px" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text">@item.Price رس</p>
+                        <a href="/Products/Details/ @item.Id" class="btn btn-primary btn-color stretched-link">تفاصيل</a>
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</table>

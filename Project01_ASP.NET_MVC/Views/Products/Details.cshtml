@@ -1,0 +1,20 @@
+﻿@{
+    var prd = (productModel)ViewData["products"];
+    Layout = "_LayoutDesign";
+}
+
+<div class="card mb-12" style="margin-bottom:20px; margin-top:20px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="@prd.Image" alt="@prd.Image" width="410px" height="440px">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title" style="margin-top:7em">@prd.Title</h5>
+                <p class="card-text">@prd.Description</p>
+                <p class="card-text"><small class="text-muted">@prd.Price رس</small></p>
+                <a href="/Products" class="btn btn-primary btn-color">عوده</a>
+            </div>
+        </div>
+    </div>
+</div>
