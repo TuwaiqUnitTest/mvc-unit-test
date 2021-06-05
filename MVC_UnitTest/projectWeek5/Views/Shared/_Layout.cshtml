@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Web Recipes</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .BigImage {
+            width: 100vw;
+            height: 300vh;
+            position: relative;
+            background-image: url(https://image.freepik.com/free-photo/chef-working-kitchen_23-2148006655.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+  </head>
+<body>
+    <div class="BigImage">
+        <header>
+            <nav class="navbar navbar-light" style="box-shadow: 3px 2px #0c4271; background-color: rgb(0,0,0,0.5);">
+                <div class="container">
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><div style="color:aliceblue; font-size:30px;">Home</div></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <footer class="border-top footer text-muted" style="box-shadow: 3px 2px #0c4271; background-color: rgb(0,0,0,0.5);">
+        <div class="container" style="color:aliceblue; font-size:20px;">
+            &copy; 2021 - Bootcamp Tuwiqe - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

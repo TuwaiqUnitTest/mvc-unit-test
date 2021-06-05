@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .bigImage {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-image: url(https://as1.ftcdn.net/v2/jpg/02/15/95/34/1000_F_215953481_NoTkZ9O7QiLs6VRjedxsMlPfoAB84DmI.jpg);
+            background-size: cover;
+        }
+
+        .overlay {
+            width: 100%;
+            height: 100%;
+            font-size: 26px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="bigImage">
+        <div class="overlay">
+            <h1 class="font-italic" style="text-shadow: 2px 2px #000000;">Welcome to My Kitchen website</h1>
+            <br/>
+            <h3 class="font-italic" style="text-shadow: 2px 2px #000000;"> GOOD FOOD</h3>
+                <h4 class="font-italic" style="text-shadow: 2px 2px #000000;">GOOD MOOD</h4>
+            <a href="/Recipes/Index"><button type="button" class="btn btn-outline-info" >Show recipes</button></a>
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+@{
+
+    var recipes = (List<RecipesModel>)ViewData["Recipes"];
+}
+
+<div class="container px-4 px-lg-5 " style="padding:30px ">
+    <div class="content-section-heading text-center">
+        <h1 style="color: aliceblue; text-shadow: 2px 2px #000000; ">My Kitchen website</h1>
+        <br/>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        @foreach (var recipe in recipes)
+        {
+        <div class="col" style="padding-bottom:30px">
+            <div class="card" style="width: 25rem; box-shadow: 5px 10px 18px #000000; background-color: rgb(0,0,0,0.5); align-items: center; ">
+                <div class="card-body" style="align-items:center">
+                    <a class="portfolio-item" href="/Recipes/Details/@recipe.recipe_Id">
+                        <img class="card-img-top" style="width:250px; height:250px; " src="@recipe.Image" alt="@recipe.Image" />
+                        <div style="color: white; font-size: 20px; text-align: center; text-shadow: 2px 2px #000000;"> @recipe.recipe_Name</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+
