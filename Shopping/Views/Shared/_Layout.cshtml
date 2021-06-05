@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <style>
+        h1 {
+            text-shadow: 0.5px 0.5px #75B9BE;
+            font-family: 'Brush Script MT';
+        }
+        h2 {
+            text-shadow: 0.5px 0.5px #75B9BE;
+            font-family: 'Comic Sans MS'; 
+            font-size:20px;
+
+';
+        }
+
+        div {
+            background-color: #F2F5FF;
+            text-align: center;
+        }
+    </style>
+    <title>@ViewBag.Title</title>
+    <header class="navbar navbar-expand-lg navbar-light bg-light"> 
+        <div>
+
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contect">Contact</a>
+
+            </nav>
+        </div>
+    </header>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

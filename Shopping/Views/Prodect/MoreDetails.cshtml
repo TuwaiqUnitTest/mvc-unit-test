@@ -1,0 +1,49 @@
+﻿@{
+    var mylist = (Prodect)ViewData["p"];
+
+
+}
+<h1>Details about the prodect </h1>
+<table style="" class="table table-hover">
+    <tbody>
+
+    <thead scope="col">
+    <td class="thead-light" style="background-color:#75B9BE"><b> Prodect Id</b></td>
+
+    <td scope="col" class="thead-light" style="background-color:#75B9BE"><h2> Prodect Name</h2></td>
+
+    <td scope="col" class="thead-light" style="background-color:#75B9BE"><h2> Prodect Price</h2></td>
+
+    <td scope="col" class="thead-light" style="background-color:#75B9BE"> <h2> Prodect Image</h2> </td>
+    <td scope="col" class="thead-light" style="background-color:#75B9BE"> <h2> Add to Cart </h2> </td>
+    </thead>
+
+    <br />
+
+
+    <tr>
+        <td scope="row" style="text-align:center ; color :black ">
+            @mylist.Prodect_Id
+        </td>
+        <td scope="row" style="text-align:center ; color :black ">
+            @mylist.Prodect_Name
+        </td>
+        <td scope="row" style="text-align:center ; color :black ">
+            @mylist.Prodect_Price
+        </td>
+        <td scope="row" style="text-align:center ; color :black ">
+            <img src="@mylist.Prodect_Image" width="200" height="200"/>
+        </td>
+        <td scope="row" style="text-align:center ; color :#75B9BE ">
+     <button> <img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" width="40" height="40" /> </button>
+        </td>
+
+
+        </td>
+
+
+    </tr>
+
+</table>
+<a href="/Prodect/"  @mylist.Prodect_Id">
+    <button class="btn btn-info">Back to the prodect page </button>  </a>

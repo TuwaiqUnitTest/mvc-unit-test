@@ -1,0 +1,70 @@
+﻿
+
+@{
+    ViewData["Title"] = "Contect";
+}
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+    .container {
+        border-radius: 5px;
+        background-color: #B8C7E6;
+        padding: 20px;
+    }
+</style>
+
+<h1>Contact Us</h1>
+
+<div class="container">
+    <form action="/Home/index/">
+        <label for="fname" style=" font-family: 'Comic Sans MS'; ">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname" style=" font-family: 'Comic Sans MS'; " >Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country" style=" font-family: 'Comic Sans MS'; " >Country</label>
+        <select id="country" name="country">
+            <option value="Saudi">Saudi Arabia</option>
+            <option value="Kuwait">Kuwait</option>
+            <option value="UAE">United Arab Emirates</option>
+        </select>
+
+        <label for="subject" style=" font-family: 'Comic Sans MS'; " >Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <a href="/Home/index/"> <button class="btn btn-info">Submit </button>  </a>
+    </form>
+</div>
+
+<h1> OR Contect Us in WhatsUp </h1>
+<h2>Phon number :0555906886</h2>
