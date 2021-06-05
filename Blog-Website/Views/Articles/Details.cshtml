@@ -1,0 +1,41 @@
+﻿@{
+    var Articles = (List<ArticlesModel>) ViewData["Articles"];
+    var authors =(List<UserModel>)ViewData["authors"];
+    var id = (int)ViewData["id"];
+}
+
+@foreach (var Article in Articles)
+{
+    if (id == Article.Article_id)
+    {
+<div class="container">
+    <div class="card mb-3">
+        <img src=@Article.Article_image class="card-img-top" alt="..." style="max-height:550px">
+        <div class="card-body">
+            <h1 class="card-title">@Article.Article_title</h1>
+            <br />
+            <p>
+                @Article.Article_content
+            </p>
+            @foreach (var author in authors)
+            {
+                if (Article.User_id == author.User_id)
+                {
+                    <br />
+                    <p class="fw-light" style="font-weight:bold">@author.UserName</p>
+                }
+            }
+            <p class="card-text"><small class="text-muted">Create At @Article.Created_at</small></p>
+        </div>
+    </div>
+</div>
+
+    }
+
+
+
+}
+
+
+
+

@@ -1,0 +1,53 @@
+﻿
+
+@{
+    var Articles = (List<Article>) ViewData["Articles"];
+    var p2 = "";
+    var count = 0;
+}
+
+
+@foreach (var Article in Articles)
+{
+
+    var p = Article.content;
+
+        <div class="container Main-blog">
+            <div class="row">
+                <div class="col-sm">
+                    <h2>
+                        @Article.title
+                    </h2>
+                    <br />
+
+                    <p class="fw-light">@Article.author</p>
+                    <p style="color: #d0d1d0;font-size:15px">@Article.publishedAt</p>
+
+
+                </div>
+                <div class="col-sm">
+                    @if (p.Length > 200)
+                    {
+                        p2 = p.Substring(0, 200) + " ...";
+                    }
+                    else
+                    {
+                        p2 = p;
+                    }
+
+                    <h6>@p2</h6>
+                    <br />
+                    <a href=@Article.url><button type="button" class="btn btn-outline-secondary">Read More</button></a>
+
+                </div>
+                <div class="col-sm">
+                    <img src=@Article.urlToImage width="350" height="200" />
+                </div>
+            </div>
+            <hr />
+        </div>
+
+        count++;
+
+
+}
