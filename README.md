@@ -9,3 +9,9 @@
 <p><b> ملاحظة:  يجب مراعاة تسمية الدوال بتسمية توضح الهدف من Test Case </b> </p>
 
 </div>
+
+## Test Cases:
+1. Test index view is not null 
+2. Test random view is null
+3. Test Details View
+4. Test redirct action to index view if we pass id < 0
