@@ -14,7 +14,7 @@ namespace projectWeek5Test
         RecipesController controllerRecipes = new RecipesController();
 
         [Test]
-        public void IndexـTestIndexViewInRecipes()
+        public void Index_TestIndexViewInRecipes()
         {
             //Act
             ViewResult Result = controllerRecipes.Index() as ViewResult;
