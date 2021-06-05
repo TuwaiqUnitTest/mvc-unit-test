@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{C37445BA-793E-4FE7-82EB-94CA3D09B1AC}|">
+  <MonoDevelop.Ide.ItemProperties.App PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="App.Tests/Controllers/HomeControllerTest.cs">
+    <Files>
+      <File FileName="App.Tests/Controllers/HelloWorldControllerTest.cs" Line="10" Column="39" />
+      <File FileName="App.Tests/Controllers/HomeControllerTest.cs" Line="1" Column="1" />
+      <File FileName="App/Controllers/HomeController.cs" Line="24" Column="1" />
+      <File FileName="App/Controllers/WelcomeController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="App" expanded="True">
+            <Node name="App" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="App.Tests" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeControllerTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="App" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
