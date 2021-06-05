@@ -1,0 +1,137 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\ShoopingTests\\ShoopingTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\ShoopingTests\\ShoopingTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\ShoopingTests\\ShoopingTests.csproj",
+        "projectName": "ShoopingTests",
+        "projectPath": "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\ShoopingTests\\ShoopingTests.csproj",
+        "packagesPath": "C:\\Users\\Rawabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\ShoopingTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rawabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\Shooping\\Shooping.csproj": {
+                "projectPath": "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\Shooping\\Shooping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\Shooping\\Shooping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\Shooping\\Shooping.csproj",
+        "projectName": "Shooping",
+        "projectPath": "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\Shooping\\Shooping.csproj",
+        "packagesPath": "C:\\Users\\Rawabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rawabe\\Documents\\Visual Studio 2019\\Projects\\Shooping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rawabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
