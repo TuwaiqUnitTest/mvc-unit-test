@@ -68,7 +68,18 @@ namespace projectWeek5Test
 
         //Arrange
         HomeController controllerHome = new HomeController();
+         [Test]
+            public void Index_TestIndexNotNull()
+         {
 
+            //Act
+            ViewResult Result = controller.Index() as ViewResult;
+
+
+            //Assert
+            Assert.IsNotNull(Result);
+        }
+        
         [Test]
         public void AboutUs_TestNameViewIsAboutUs()
         {
@@ -78,6 +89,7 @@ namespace projectWeek5Test
             Assert.IsTrue(Result.ViewName == "AboutUs" || Result.ViewName == null);
 
         }
+        
 
     }
 }
