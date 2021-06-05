@@ -69,12 +69,10 @@ namespace projectWeek5Test
         //Arrange
         HomeController controllerHome = new HomeController();
          [Test]
-            public void Index_TestIndexNotNull()
+         public void Index_TestIndexNotNull()
          {
-
             //Act
             ViewResult Result = controller.Index() as ViewResult;
-
 
             //Assert
             Assert.IsNotNull(Result);
