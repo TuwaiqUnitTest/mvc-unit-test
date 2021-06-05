@@ -1,0 +1,31 @@
+﻿@{
+    var attendees = (List<AttendeeModel>)ViewBag.Attendees;
+
+}
+
+<table class="table table-borderless table-dark" style="width: 100%; margin: 0px;">
+    <thead style="background-color: black; text-align: center;">
+        <tr style="width: 100%; margin: 0px;text-align: center;">
+            <th scope="col">ID </th>
+            <th scope="col">Name </th>
+            <th scope="col">Email </th>
+            <th scope="col">Phone </th>
+            <th scope="col">Field </th>
+            <th scope="col">Event ID </th>
+        </tr>
+    </thead>
+    @foreach (var item in attendees)
+    {
+
+        <tbody style="background-color: black;">
+            <tr style="width: 100%; margin: 0px; text-align: center; background-color: black;">
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                <td>@item.Email</td>
+                <td>@item.Phone</td>
+                <td>@item.Field</td>
+                <td>@item.EventId</td>
+            </tr>
+        </tbody>
+    }
+</table>

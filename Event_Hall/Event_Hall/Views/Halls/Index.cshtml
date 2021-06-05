@@ -1,0 +1,29 @@
+﻿@{
+    var halls = (List<HallModel>)ViewBag.Halls;
+
+}
+
+<table class="table table-borderless table-dark" style="width: 100%; margin: 0px;">
+    <thead style="background-color: black; text-align: center;">
+        <tr style="width: 100%; margin: 0px;text-align: center;">
+            <th scope="col">ID </th>
+            <th scope="col">Name </th>
+            <th scope="col">Capacity </th>
+            <th scope="col">Avaliability </th>
+ 
+        </tr>
+    </thead>
+    @foreach (var item in halls)
+    {
+
+        <tbody style="background-color: black;">
+            <tr style="width: 100%; margin: 0px; text-align: center; background-color: black;">
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                <td>@item.Capacity people</td>
+                <td>@item.Avaliability</td>
+               
+            </tr>
+        </tbody>
+    }
+</table>
