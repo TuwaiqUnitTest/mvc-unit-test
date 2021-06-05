@@ -8,7 +8,7 @@ namespace Project_01_Test
     public class WeatherControllerTest
     {
         [TestMethod]
-        public void TestgetWeatherReturnNull()
+        public void TestgetWeatherDoesNotReturnNull()
         {
             // Arrange
             var controller = new WeatherController();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/Project_01_Turki.csproj": {}
+    "/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/Project_01_Turki.csproj": {}
   },
   "projects": {
-    "/Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/Project_01_Turki.csproj": {
+    "/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/Project_01_Turki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/Project_01_Turki.csproj",
+        "projectUniqueName": "/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/Project_01_Turki.csproj",
         "projectName": "Project_01_Turki",
-        "projectPath": "/Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/Project_01_Turki.csproj",
+        "projectPath": "/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/Project_01_Turki.csproj",
         "packagesPath": "/Users/taj/.nuget/packages/",
-        "outputPath": "/Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/obj/",
+        "outputPath": "/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/taj/.config/NuGet/NuGet.Config"

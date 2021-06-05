@@ -22,7 +22,7 @@ namespace Project_01_Test
         }
 
         [TestMethod]
-        public void TestIndexViewReturnNull()
+        public void TestIndexViewDoesNotReturnNull()
         {
             //Arrange
             var controller = new TravelController();

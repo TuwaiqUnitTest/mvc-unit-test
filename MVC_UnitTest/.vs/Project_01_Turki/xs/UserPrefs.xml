@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{A930FCF0-7B14-448C-80A0-54F826FFA40F}|Default">
+  <MonoDevelop.Ide.ItemProperties.Project__01__Turki PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project_01_Test/WeatherControllerTest.cs">
+    <Files>
+      <File FileName="Project_01_Test/TravelControllerTest.cs" Line="25" Column="34" />
+      <File FileName="Project_01_Test/WeatherControllerTest.cs" Line="11" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Project_01_Turki" expanded="True">
+            <Node name="Project_01_Test" expanded="True">
+              <Node name="WeatherControllerTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Project_01_Turki" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
