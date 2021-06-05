@@ -1,0 +1,10 @@
+﻿body {
+    background-color: #14213d;
+}
+
+.map-cover {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}

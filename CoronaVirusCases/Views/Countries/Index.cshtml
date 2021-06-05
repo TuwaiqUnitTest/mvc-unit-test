@@ -1,0 +1,52 @@
+﻿@{
+    GlobalModel globalCases = (GlobalModel) ViewData["GlobalCases"];
+}
+
+<h2 class="text-center" style="color: white; padding-top:200px">Global Corona Virus Cases</h2>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4 text-center">
+        <div class="col-6 mt-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="mb-0">
+                        Total Confirmed: <span style="color: #e4c857">@globalCases.TotalConfirmed</span>
+                    </h5>
+                    <h5 class="mb-0">
+                        New Confirmed: <span style="color: #e4c857">@globalCases.NewConfirmed</span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 mt-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="mb-0">
+                        Total Deaths: <span style="color:red">@globalCases.TotalDeaths</span>
+                    </h5>
+                    <h5 class="mb-0">
+                        New Deaths: <span style="color:red">@globalCases.NewDeaths</span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-14 mt-4 text-center">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="mb-0">
+                        Total Recovered: <span style="color:#8ACA2B">@globalCases.TotalRecovered</span>
+                    </h5>
+                    <h5 class="mb-0">
+                        New Recovered: <span style="color:#8ACA2B">@globalCases.NewRecovered</span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-5 text-center">
+        <a href="/countries/global">
+            <button class="btn btn-danger">Go to map</button>
+        </a>
+    </div>
+</div>

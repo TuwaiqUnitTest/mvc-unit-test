@@ -1,0 +1,78 @@
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\appsettings.json
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.exe
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.deps.json
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.runtimeconfig.json
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.runtimeconfig.dev.json
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.dll
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.pdb
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.Views.dll
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.Views.pdb
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.csprojAssemblyReference.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.AssemblyInfoInputs.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.AssemblyInfo.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.csproj.CoreCompileInputs.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorAssemblyInfo.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorAssemblyInfo.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\staticwebassets\CoronaVirusCases.StaticWebAssets.Manifest.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\staticwebassets\CoronaVirusCases.StaticWebAssets.xml
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\scopedcss\bundle\CoronaVirusCases.styles.css
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.TagHelpers.input.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.TagHelpers.output.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorCoreGenerate.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorTargetAssemblyInfo.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorTargetAssemblyInfo.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.Views.pdb
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.dll
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.pdb
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.genruntimeconfig.cache
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.csproj.CopyComplete
+D:\repos\CoronaVirusCases\CoronaVirusCases\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Regions\Index.cshtml.g.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Index.cshtml.g.cs
+D:\repos\CoronaVirusCases\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Global.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.exe
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.deps.json
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.runtimeconfig.json
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.runtimeconfig.dev.json
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.dll
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.pdb
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.Views.dll
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\CoronaVirusCases.Views.pdb
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.csprojAssemblyReference.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.AssemblyInfoInputs.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.AssemblyInfo.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.csproj.CoreCompileInputs.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorAssemblyInfo.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorAssemblyInfo.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\staticwebassets\CoronaVirusCases.StaticWebAssets.Manifest.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\staticwebassets\CoronaVirusCases.StaticWebAssets.xml
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\scopedcss\bundle\CoronaVirusCases.styles.css
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.TagHelpers.input.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.TagHelpers.output.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorCoreGenerate.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Global.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Index.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Regions\Index.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorTargetAssemblyInfo.cache
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.RazorTargetAssemblyInfo.cs
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.Views.pdb
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.csproj.CopyComplete
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.dll
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.pdb
+C:\Users\anas\Desktop\New folder (8)\mvc-unit-test\CoronaVirusCases\obj\Debug\netcoreapp3.1\CoronaVirusCases.genruntimeconfig.cache
