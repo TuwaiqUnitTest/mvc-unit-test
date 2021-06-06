@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{8568E0E9-EC31-4F12-8AF4-296D155A6CCA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="unitTest/Controllers/MathControllerTest.cs">
+    <Files>
+      <File FileName="unit/Controllers/MathController.cs" Line="25" Column="1" />
+      <File FileName="unitTest/UnitTest1.cs" Line="144" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="unit" expanded="True">
+            <Node name="unit" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="unitTest" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="MathControllerTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="unit" expanded="True">
+            <Node name="unitTest" expanded="True">
+              <Node name="unitTest" expanded="True">
+                <Node name="UnitTest1" expanded="True">
+                  <Node name="TestSubWithTwoNegativeInt" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.unit PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
