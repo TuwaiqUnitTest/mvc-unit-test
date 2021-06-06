@@ -1,0 +1,39 @@
+﻿@*@{
+        var allProduct = (List<ProductModel>)ViewData["AllProducts"];
+    }
+    <ul>
+        @foreach (var p in allProduct)
+        {
+            <li> This is the product: @p.Name and its id is @p.Id, while the price is @p.Price:
+            <img width="350px" height="350px" src ="@p.Image"/>
+            </li>
+        }
+    </ul>*@
+
+
+@{
+    var queriedProduct = (ProductModel)ViewData["Product"];
+    Layout = "_LayoutDesign"; // to use another layout ,other than the defult, that has been created.
+}
+@*<h4> Your Query result: </h4>
+    <h6> The product u searched for is : @queriedProduct.Name and its id is @queriedProduct.Id , while the price is @queriedProduct.Price :</h6>
+    <img width="350px" height="350px" src="@queriedProduct.Image" />*@
+
+
+<div class="card mb-3" style="max-width: 550px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);border:hidden">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img  style="border-radius: 12px;" width="235px" height="260px" src="@queriedProduct.Image" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body" style="text-align: center; margin-left: 28px;">
+                <h3 class="card-title">@queriedProduct.Name</h3>
+                <p class="card-text">The product u searched for is : @queriedProduct.Name and its id is @queriedProduct.Id , while the price is @queriedProduct.Price$</p>
+                <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                @*<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+  

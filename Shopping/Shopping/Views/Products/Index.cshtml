@@ -1,0 +1,59 @@
+﻿@{
+    var allProduct = (List<ProductModel>)ViewData["AllProducts"];
+    var tableColor = ViewData["givenColor"];
+}
+
+
+@*<ul>*@
+<br /><br />
+<table class="table table-hover">
+    <thead style="background-color: #250474; color: white">
+        <tr>
+            <th width="400px">
+                Id
+            </th>
+            <th width="400px">
+                Name
+            </th>
+
+            <th width="400px">
+                Price
+            </th>
+            <th width="400px">
+                Image
+            </th>
+            <th width="400px">
+
+            </th>
+        </tr>
+    </thead>
+    <tbody style="background-color:@tableColor">
+        @foreach (var p in allProduct)
+        {
+        <tr style="align-items:center">
+            <td style="vertical-align: middle;">
+                @p.Id
+            </td>
+            <td style="vertical-align: middle;">
+                @p.Name
+            </td>
+
+            <td style="vertical-align: middle;">
+                @p.Price$
+            </td>
+            <td>
+                <img style="width:170px; height:180px" src="@p.Image" />
+            </td> @* table data**@
+        <td style="vertical-align: middle;">
+            @*<button> <a href="/Products/Details/@p.Id"> Show Details </a> </button>*@
+            <button type="button" class="btn btn-info" style="background-color:#935fdc;">
+                <a style=" color: white" href="/Products/Details/@p.Id"> Show Details
+            </a></button>
+        </td>
+
+        </tr>
+
+        }
+    </tbody>
+    @*</ul>*@
+</table>

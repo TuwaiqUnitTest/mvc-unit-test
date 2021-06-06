@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{1F942514-70F6-40AB-9B57-250390562764}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShoppingTest/ShoppingTest.cs">
+    <Files>
+      <File FileName="ShoppingTest/UnitTest1.cs" Line="35" Column="118" />
+      <File FileName="Shopping/Controllers/ProductsController.cs" Line="80" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Shopping" expanded="True">
+            <Node name="Shopping" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="ShoppingTest" expanded="True">
+              <Node name="ShoppingTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Shopping" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Shopping PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
