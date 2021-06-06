@@ -34,5 +34,16 @@ namespace Books.Controllers.Tests
 
             Assert.AreEqual("Details", result.ViewName);
         }
+
+        [TestMethod()]
+        public void IndexTest1()
+        {
+            // Arrange
+            ProductsController controller = new ProductsController();
+            // Act
+            ViewResult result = controller.Index() as ViewResult;
+            // Assert
+            Assert.AreNotEqual("Error", result.ViewData["products"]);
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qECuEVdJgM880Gyu6puiZPR8NFqH06ZXJgSAfTSurcDOEZ1eAbmy+/SkH8gROLDG26XbQHpe6pk4ZFRWdQzZjw==",
+  "dgSpecHash": "WJd2I2c3/meGG2x682vgadI+QbJp3e1jMO0MqLe66xybDk/k4EWLhc2dVP75Yd32teUUTe4tAFoXpMWrIUdgXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\BooksTests\\BooksTests.csproj",
+  "projectFilePath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\BooksTests\\BooksTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amalf\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\amalf\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.4\\microsoft.aspnetcore.mvc.razor.extensions.5.0.4.nupkg.sha512",

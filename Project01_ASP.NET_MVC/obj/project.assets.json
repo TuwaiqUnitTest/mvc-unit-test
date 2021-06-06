@@ -741,11 +741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\Books.csproj",
+      "projectUniqueName": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\Books.csproj",
       "projectName": "Books",
-      "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\Books.csproj",
+      "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\Books.csproj",
       "packagesPath": "C:\\Users\\amalf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\obj\\",
+      "outputPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amalf\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\BooksTests\\BooksTests.csproj": {}
+    "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\BooksTests\\BooksTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\BooksTests\\BooksTests.csproj": {
+    "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\BooksTests\\BooksTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\BooksTests\\BooksTests.csproj",
+        "projectUniqueName": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\BooksTests\\BooksTests.csproj",
         "projectName": "BooksTests",
-        "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\BooksTests\\BooksTests.csproj",
+        "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\BooksTests\\BooksTests.csproj",
         "packagesPath": "C:\\Users\\amalf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\BooksTests\\obj\\",
+        "outputPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\BooksTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amalf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": ".NETCoreApp,Version=v5.0",
             "projectReferences": {
-              "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\Books.csproj": {
-                "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\Books.csproj"
+              "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\Books.csproj": {
+                "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\Books.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\Books.csproj": {
+    "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\Books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\Books.csproj",
+        "projectUniqueName": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\Books.csproj",
         "projectName": "Books",
-        "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\Books.csproj",
+        "projectPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\Books.csproj",
         "packagesPath": "C:\\Users\\amalf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\UnitTest2\\Project01_ASP.NET_MVC\\obj\\",
+        "outputPath": "C:\\Users\\amalf\\OneDrive\\Desktop\\Tuwaiq\\React\\Projects\\mvc-unit-test\\Project01_ASP.NET_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amalf\\AppData\\Roaming\\NuGet\\NuGet.Config",
