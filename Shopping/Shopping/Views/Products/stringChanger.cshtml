@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "String changer";
+    string hi = (string)ViewData["show string"];
+}
+
+<div style=" display:flex">
+    @for (int i = 0; i < hi.Length; i++)
+    {
+        <h1>@hi[i]</h1>
+    }
+</div>

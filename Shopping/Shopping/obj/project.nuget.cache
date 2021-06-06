@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "o4SFT1DDPytLJcn+aTePXN3P/hP1di/H2UaN1F2u8UvfQgAC/psZR8AHa7Bul4/HCluFGGhWUAsYL6k0SZyRbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ammar\\source\\repos\\Shopping\\Shopping\\Shopping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ammar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ammar\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Ammar\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+  ],
+  "logs": []
+}

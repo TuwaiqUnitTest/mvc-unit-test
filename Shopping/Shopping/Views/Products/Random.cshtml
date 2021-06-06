@@ -1,0 +1,11 @@
+﻿
+@{
+    ProductModel product = (ProductModel)ViewData["foundProduct"];
+}
+
+<h2>The random product</h2>
+
+<br />
+
+<h2> @product.Id  @product.Name  @product.Price</h2>
+<img src="@product.Image" alt="@product.Image" />

@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Check";
+}
+@{
+   
+    ProductModel product = (ProductModel)ViewData["products"];
+    //To add new layout
+    @*Layout = "_LayoutDesgin";*@
+}
+
+<h2>Products Details</h2>
+
+<table style="width:100%" class="table">
+    <tr style="        background-color: rgb(26, 198, 255)">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Image</th>
+    </tr>
+    <tr>
+        <td>@product.Id</td>
+        <td>@product.Name</td>
+        <td>@product.Price</td>
+        <td> <img style="height: 100px; width:auto" src=@product.Image alt=@product.Name /></td>
+    </tr>
+</table> 

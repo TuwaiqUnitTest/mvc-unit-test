@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@{
+    List<ProductModel> products = (List<ProductModel>)ViewData["products"];
+}
+
+<h2>Products Details</h2>
+
+@*<ul>
+    @foreach (ProductModel product in products)
+    {
+        <li> name: @product.Name  price : @product.Price <img  width="500px" height="300px" src="@product.Image" alt="@product.Image" /></li>
+
+    }
+
+</ul>*@
+
+<table style="width:100%" class="ctable">
+    <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th></th>
+        </tr>
+        </thead>
+        @foreach (ProductModel prd in products)
+        {
+            <tr>
+                <th scope="row">@prd.Id</th>
+                <td>@prd.Name</td>
+                <td>@prd.Price</td>
+                <td> <img style="height: 100px; width:auto" src=@prd.Image alt=@prd.Name /></td>
+                <td> <button><a href="/products/check/@prd.Id">Show </a> </button> </td>
+            </tr>
+        }
+</table> 

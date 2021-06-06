@@ -1,0 +1,17 @@
+﻿
+@{
+    ProductModel products = (ProductModel)ViewData["oneProduct"];
+    ProductModel product = (ProductModel)ViewData["products"];
+}
+
+<h2>Products Details</h2>
+
+<br />
+<ul>
+    <li>
+        The id number of the product : @products.Id 
+        The id number of the product : @products.Name
+        The id number of the product : @products.Price
+        <img src="@products.Image" alt="@products.Image" />
+    </li>
+</ul>
