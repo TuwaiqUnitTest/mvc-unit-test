@@ -1,0 +1,26 @@
+﻿
+
+@{
+    var shops = (List<ShopModel>)ViewData["Shops"];
+
+    
+}
+
+<table style="width:150%;" class="table table-hover bg-white box-shadow rounded mx-auto">
+    <tr>
+
+        <th scope="col">NAME</th>
+        <th scope="col">LOCATION</th>
+        <th scope="col">PHONE</th>
+    </tr>
+    @foreach (var s in shops)
+    {
+        <tr>
+            <td>@s.name</td>
+            <td> @s.location</td>
+            <td>Tel: @s.phone</td>
+        </tr>
+
+    }
+
+</table>

@@ -1,0 +1,22 @@
+﻿@{
+    var c = (CatModel)ViewData["Cat"];
+
+}
+        <div class="col-sm-6">
+            <div class="card" style="width:40em" >
+                <div class="card-body">
+                    <img class="card-img-top" src="@c.image" alt="Card image cap">
+                    <h5 class="card-title">@c.name</h5>
+                    <h5 class="font-weight-bold">overview:</h5>
+                    <p class="card-text"> @c.overview</p>
+                    <h5 class="font-weight-bold">personality:</h5>
+                    <p class="card-text align-content-center">  @c.personality</p>
+                    <h5 class="font-weight-bold">grooming:</h5>
+                    <p class="card-text">  @c.grooming</p>
+
+                </div>
+            </div>
+        </div>
+    
+
+
