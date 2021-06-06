@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator.test/calculator.test.csproj": {}
+  },
+  "projects": {
+    "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator.test/calculator.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator.test/calculator.test.csproj",
+        "projectName": "calculator.test",
+        "projectPath": "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator.test/calculator.test.csproj",
+        "packagesPath": "/Users/hanans/.nuget/packages/",
+        "outputPath": "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator.test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hanans/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator/calculator.csproj": {
+                "projectPath": "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator/calculator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator/calculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator/calculator.csproj",
+        "projectName": "calculator",
+        "projectPath": "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator/calculator.csproj",
+        "packagesPath": "/Users/hanans/.nuget/packages/",
+        "outputPath": "/Users/hanans/Desktop/Tuwaiq/projects/calculator/calculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hanans/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
