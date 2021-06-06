@@ -13,15 +13,14 @@ namespace UTest_MVC_APP.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-
             return View();
         }
 
-        public int divide(int a, int b)
+        public float divide(int a, int b)
         {
             if (b == 0)
                 throw new DivideByZeroException("Denominator can not be zero");
-            return a / b;
+            return ((float) a / b);
         }
         public int multiply(int a, int b)
         {
