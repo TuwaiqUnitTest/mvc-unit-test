@@ -26,7 +26,7 @@ namespace ProjectUnitTest_Test
         }
         
             [Test]
-        public void DivTest() 
+        public void DivTestPositiveNum() 
         {
             //Arange 
             CalculatorController controllerOBJ = new CalculatorController();
@@ -34,19 +34,46 @@ namespace ProjectUnitTest_Test
             //Act
 
             float test1 = controllerOBJ.Div(4,2) ;
-            float test3 = controllerOBJ.Div(4, -2);
 
             //Assert
 
             Assert.AreEqual(2,test1);
-            Assert.Throws<DivideByZeroException>(()=> controllerOBJ.Div(4,0));
-            Assert.AreEqual(-2, test3);
             
 
         }
 
+        public void DivTestNegativeNum()
+        {
+            //Arange 
+            CalculatorController controllerOBJ = new CalculatorController();
+
+            //Act
+
+            float test3 = controllerOBJ.Div(4, -2);
+
+            //Assert
+
+            Assert.AreEqual(-2, test3);
+
+
+        }
+
+        public void DivTestByZero()
+        {
+            //Arange 
+            CalculatorController controllerOBJ = new CalculatorController();
+
+            //Act
+
+
+            //Assert
+            Assert.Throws<DivideByZeroException>(() => controllerOBJ.Div(4, 0));
+
+
+        }
+
         [Test]
-        public void SumTest()
+        public void SumTestPositiveNum()
         {
             //Arange 
             CalculatorController controllerOBJ = new CalculatorController();
@@ -54,18 +81,33 @@ namespace ProjectUnitTest_Test
             //Act
 
             float test1 = controllerOBJ.Sum(4, 2);
-            float test2 = controllerOBJ.Sum(4, -2);
 
             //Assert
 
             Assert.AreEqual(6, test1);
+
+
+        }
+
+        [Test]
+        public void SumTestNegativeNum()
+        {
+            //Arange 
+            CalculatorController controllerOBJ = new CalculatorController();
+
+            //Act
+
+            float test2 = controllerOBJ.Sum(4, -2);
+
+            //Assert
+
             Assert.AreEqual(2, test2);
 
 
         }
 
         [Test]
-        public void MultTest()
+        public void MultTestPositiveNum()
         {
             //Arange 
             CalculatorController controllerOBJ = new CalculatorController();
@@ -73,14 +115,31 @@ namespace ProjectUnitTest_Test
             //Act
 
             float test1 = controllerOBJ.Mult(4, 2);
-            float test2 = controllerOBJ.Mult(4, -2);
 
             //Assert
 
             Assert.AreEqual(8, test1);
+
+
+        }
+
+        [Test]
+        public void MultTestNegativeNum()
+        {
+            //Arange 
+            CalculatorController controllerOBJ = new CalculatorController();
+
+            //Act
+
+            float test2 = controllerOBJ.Mult(4, -2);
+
+            //Assert
+
             Assert.AreEqual(-8, test2);
 
 
         }
+
+
     }
 }
