@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Students";
+    var Students = (List<Student>)ViewData["Students"];
+    var greaterthan2 = (List<Student>)ViewData["Greaterthan2"];
+
+}
+
+<h1>This is Index Students</h1>
+
+<h5>Students:</h5>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>FirstName</td>
+            <td>LastName</td>
+            <td>Email</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Student in Students)
+        {
+            <tr>
+                <td>@Student.Id</td>
+                <td>@Student.FirstName</td>
+                <td>@Student.LastName</td>
+                <td>@Student.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<h5></h5>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>FirstName</td>
+            <td>LastName</td>
+            <td>Email</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var g in greaterthan2)
+        {
+
+            <tr>
+                <td>@g.Id</td>
+                <td>@g.FirstName</td>
+                <td>@g.LastName</td>
+                <td>@g.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>@ViewBag.Students1</h3>
+<h4>@ViewBag.a</h4>
