@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EzzRestaurant", "EzzRestaurant\EzzRestaurant.csproj", "{EA5A59A8-1AD2-40F0-A28C-0EF074B561C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzzResturantTest", "EzzResturantTest\EzzResturantTest.csproj", "{BF9AC110-B0A0-4460-873B-B082CD09A3CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5A59A8-1AD2-40F0-A28C-0EF074B561C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5A59A8-1AD2-40F0-A28C-0EF074B561C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5A59A8-1AD2-40F0-A28C-0EF074B561C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5A59A8-1AD2-40F0-A28C-0EF074B561C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9AC110-B0A0-4460-873B-B082CD09A3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9AC110-B0A0-4460-873B-B082CD09A3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9AC110-B0A0-4460-873B-B082CD09A3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9AC110-B0A0-4460-873B-B082CD09A3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4F6836D-D445-45C8-AC01-8267142775BB}
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,18 @@
+# Ezz Resturant
+
+## Website link
+
+you can see my project here [Ezz Restaurant](https://ezzrestaurant.azurewebsites.net/)
 
 
-<div dir="rtl" align="right">
-<h1>مشروع Unit Testing</h1>
-<p>1. قم بإختيار احد مشاريع Net MVC.  الذي قمت بالعمل عليها مسبقاً </p>
-<p>2. اختر 3 دوال من المشروع</p>
-<p>3. حاول تحلليل تلك الداول، لتغطية جميع  Test Cases</p>
-<p>4. قم بتنفيذ Unit Testing لجميع الحالات التي تم استنتاجها في الخطوة السابقة</p>
-<p><b> ملاحظة:  يجب مراعاة تسمية الدوال بتسمية توضح الهدف من Test Case </b> </p>
+## Screenshots
 
-</div>
+![image](https://user-images.githubusercontent.com/82456273/120080600-6a078c00-c0c2-11eb-923d-f80830e56409.png)
+
+![image](https://user-images.githubusercontent.com/82456273/120080452-a25a9a80-c0c1-11eb-955e-34004680e1ba.png)
+
+![image](https://user-images.githubusercontent.com/82456273/120080464-b30b1080-c0c1-11eb-848a-58dbbbcc96a0.png)
+
+![image](https://user-images.githubusercontent.com/82456273/120080474-c322f000-c0c1-11eb-9f7c-0dc2513cc7ab.png)
+
+
