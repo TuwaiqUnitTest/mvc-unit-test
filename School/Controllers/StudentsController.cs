@@ -17,6 +17,11 @@ namespace CodeFirst.Controllers
             _db = context;
         }
 
+        public int Sum(int a, int b)
+        {
+            return a + b ;
+        }
+
         public IActionResult Index(bool? added = false)
         {
             ViewData["Added"] = added;

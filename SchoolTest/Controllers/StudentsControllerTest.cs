@@ -55,6 +55,36 @@ namespace SchoolTest
             var result = controller.Details(1) as ViewResult;
             Assert.AreEqual("Details", result.ViewName);
         }
+        [TestMethod]
+        public void SumTest_WithPositiveNums()
+        {
+            var controller = new StudentsController();
+            var expected = 5;
+            var result = controller.Sum(3,2);
+
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void SumTest_WithNegativeNums()
+        {
+            var controller = new StudentsController();
+            var expected = -2;
+            var result = controller.Sum(-4, 2);
+
+            Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void SumTest_WithZero()
+        {
+            var controller = new StudentsController();
+            var expected = 0;
+            var result = controller.Sum(0, 0);
+
+            Assert.AreEqual(expected, result);
+        }
+
 
     }
 }
