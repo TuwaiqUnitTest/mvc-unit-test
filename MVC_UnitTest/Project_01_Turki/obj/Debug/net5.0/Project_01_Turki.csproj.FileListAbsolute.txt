@@ -41,3 +41,46 @@
 /Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.pdb
 /Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.genruntimeconfig.cache
 /Users/taj/Desktop/Tuwaiq/ASP.NET/Project01_ASP.NET_MVC/Project_01_Turki/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Travel/Error.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/appsettings.Development.json
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/appsettings.json
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Project_01_Turki.deps.json
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Project_01_Turki.runtimeconfig.json
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Project_01_Turki.runtimeconfig.dev.json
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Project_01_Turki.dll
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/ref/Project_01_Turki.dll
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Project_01_Turki.pdb
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Project_01_Turki.Views.dll
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Project_01_Turki.Views.pdb
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Json.Net.dll
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.csprojAssemblyReference.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.GeneratedMSBuildEditorConfig.editorconfig
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.AssemblyInfoInputs.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.AssemblyInfo.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.csproj.CoreCompileInputs.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.MvcApplicationPartsAssemblyInfo.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.RazorAssemblyInfo.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.RazorAssemblyInfo.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/staticwebassets/Project_01_Turki.StaticWebAssets.Manifest.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/staticwebassets/Project_01_Turki.StaticWebAssets.xml
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/scopedcss/bundle/Project_01_Turki.styles.css
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.TagHelpers.input.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.TagHelpers.output.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.RazorCoreGenerate.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Travel/Error.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Travel/Index.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Weather/Index.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/Weather/Privacy.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.RazorTargetAssemblyInfo.cache
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.RazorTargetAssemblyInfo.cs
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.Views.pdb
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.csproj.CopyComplete
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.dll
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/ref/Project_01_Turki.dll
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.pdb
+/Users/taj/Desktop/Tuwaiq/Unit Test/mvc-unit-test/MVC_UnitTest/Project_01_Turki/obj/Debug/net5.0/Project_01_Turki.genruntimeconfig.cache
