@@ -6207,27 +6207,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ranee\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Reema\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ranee\\Desktop\\Project02_EF_ASP.NET_MVC\\Event_Hall\\Event_Hall\\Event_Hall.csproj",
+      "projectUniqueName": "C:\\Users\\Reema\\source\\repos\\mvc-unit-test\\Event_Hall\\Event_Hall\\Event_Hall.csproj",
       "projectName": "Event_Hall",
-      "projectPath": "C:\\Users\\Ranee\\Desktop\\Project02_EF_ASP.NET_MVC\\Event_Hall\\Event_Hall\\Event_Hall.csproj",
-      "packagesPath": "C:\\Users\\Ranee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ranee\\Desktop\\Project02_EF_ASP.NET_MVC\\Event_Hall\\Event_Hall\\obj\\",
+      "projectPath": "C:\\Users\\Reema\\source\\repos\\mvc-unit-test\\Event_Hall\\Event_Hall\\Event_Hall.csproj",
+      "packagesPath": "C:\\Users\\Reema\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Reema\\source\\repos\\mvc-unit-test\\Event_Hall\\Event_Hall\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ranee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Reema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6285,7 +6278,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

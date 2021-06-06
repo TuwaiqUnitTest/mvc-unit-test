@@ -13,6 +13,7 @@ namespace Event_Hall.Controllers
 
         public IActionResult Index(string user="guest")
         {
+            //The applied tests test the returned view, based on the user's identity
             if (user == "Admin")
             {
                 return View("Admin");
@@ -22,6 +23,8 @@ namespace Event_Hall.Controllers
                 return View("Presentor");
             }
             else return View("Index");
+
         }
+
     }
 }
