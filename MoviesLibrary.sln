@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesLibrary", "MoviesLibrary\MoviesLibrary.csproj", "{CA749FAC-F8BE-4595-BBCE-F613E016806F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesLibraryMSTests", "MoviesLibraryMSTests\MoviesLibraryMSTests.csproj", "{49D106AD-FEFD-47E1-A906-5D762FF94245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesLibraryNUnitTests", "MoviesLibraryNUnitTests\MoviesLibraryNUnitTests.csproj", "{9A1E4347-B366-4CD1-A751-A49392AAB974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA749FAC-F8BE-4595-BBCE-F613E016806F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA749FAC-F8BE-4595-BBCE-F613E016806F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA749FAC-F8BE-4595-BBCE-F613E016806F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA749FAC-F8BE-4595-BBCE-F613E016806F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D106AD-FEFD-47E1-A906-5D762FF94245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D106AD-FEFD-47E1-A906-5D762FF94245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D106AD-FEFD-47E1-A906-5D762FF94245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D106AD-FEFD-47E1-A906-5D762FF94245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1E4347-B366-4CD1-A751-A49392AAB974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1E4347-B366-4CD1-A751-A49392AAB974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1E4347-B366-4CD1-A751-A49392AAB974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1E4347-B366-4CD1-A751-A49392AAB974}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
