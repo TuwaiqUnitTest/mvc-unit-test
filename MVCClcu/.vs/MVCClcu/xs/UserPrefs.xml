@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{3D3E1EAC-53B7-427C-918E-A3878DC85958}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVCCluTest/Controllers/CalculationControllerTest.cs">
+    <Files>
+      <File FileName="MVCClcu/Controllers/CalculationController.cs" Line="39" Column="10" />
+      <File FileName="MVCCluTest/Controllers/CalculationControllerTest.cs" Line="10" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVCClcu" expanded="True">
+            <Node name="MVCClcu" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="MVCCluTest" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CalculationControllerTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MVCClcu" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MVCClcu PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
