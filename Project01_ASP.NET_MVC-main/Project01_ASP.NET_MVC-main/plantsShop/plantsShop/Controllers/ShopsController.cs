@@ -20,7 +20,7 @@ namespace plantsShop.Controllers
         public IActionResult Index()
         {
             ViewData["Shops"] = shops;
-            return View();
+            return View("Index");
         }
     }
 }

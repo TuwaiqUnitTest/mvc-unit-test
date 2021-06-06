@@ -48,7 +48,7 @@ namespace plantsShop.Controllers
         {
             var cat = cats.Find(match: model => model.id == Id);
             ViewData["Cat"] = cat;
-            return View();
+            return View("Details");
         }
 
 

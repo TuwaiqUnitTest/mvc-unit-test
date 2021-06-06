@@ -129,3 +129,4 @@ C:\Users\Batool Alghamdi\Desktop\Tuwaiq\Unit Test\mvc-unit-test\Project01_ASP.NE
 C:\Users\Batool Alghamdi\Desktop\Tuwaiq\Unit Test\mvc-unit-test\Project01_ASP.NET_MVC-main\Project01_ASP.NET_MVC-main\plantsShop\plantsShop\obj\Debug\net5.0\plantsShop.pdb
 C:\Users\Batool Alghamdi\Desktop\Tuwaiq\Unit Test\mvc-unit-test\Project01_ASP.NET_MVC-main\Project01_ASP.NET_MVC-main\plantsShop\plantsShop\obj\Debug\net5.0\plantsShop.genruntimeconfig.cache
 C:\Users\Batool Alghamdi\Desktop\Tuwaiq\Unit Test\mvc-unit-test\Project01_ASP.NET_MVC-main\Project01_ASP.NET_MVC-main\plantsShop\plantsShop\obj\Debug\net5.0\plantsShop.csproj.CopyComplete
+C:\Users\Batool Alghamdi\Desktop\Tuwaiq\Unit Test\mvc-unit-test\Project01_ASP.NET_MVC-main\Project01_ASP.NET_MVC-main\plantsShop\plantsShop\obj\Debug\net5.0\plantsShop.csproj.AssemblyReference.cache
