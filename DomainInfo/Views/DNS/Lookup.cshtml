@@ -1,0 +1,179 @@
+@{
+    var records = (DNSRecords)ViewData["records"];
+}
+<div class="mb-4">
+    <h1 class="display-4">
+        <img src="/assets/dns.png" height="80rem" alt="whois icon">
+        Domain Name System
+    </h1>
+</div>
+
+<div class="mb-4">
+    <h2 class="display-6">
+        <img src="/assets/results.png" height="40rem" alt="results icon">
+        Results
+    </h2>
+</div>
+
+
+@if (records != null && records.Records != null)
+{
+    <table class="table table-dark table-borderless text-center">
+    <thead>
+        <tr class="thead-row">
+            <td class="thead-row">Domain</td>
+            <td class="thead-row">Record Type</td>
+            <td class="thead-row">Record TTL</td>
+            <td class="thead-row">Record Content</td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+                foreach (var record in records.Records)
+                {
+                    <tr>
+                        <td>@record.Domain</td>
+                        <td>@record.ReadableType()</td>
+                        <td>@record.TTL</td>
+                        <td>@record.Content</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h4 class="h4 text-center">No DNS records of the specified type were found</h4>
+    <p class="h5 text-center mx-auto col-6 text-secondary">
+    If you choose the <code class="text-secondary">ALL</code> type, try to change it to a more
+    specific type, as some DNS servers do not accept this type.</p>
+}
+
+<div class="mb-4">
+    <h2 class="display-6">
+        <img src="/assets/lookup.png" height="40rem" alt="lookup icon">
+        Lookup
+    </h2>
+</div>
+<p>
+    Use the tool below to lookup DNS records for a specific domain. Results will be cached in our database for faster
+    retrival next time the record is requested by you or another user.
+</p>
+<form method="GET" action="/DNS/Lookup">
+    <div class="form-row align-items-center justify-content-center">
+        <div class="col-auto mb-5 mt-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Domain</div>
+                </div>
+                <input name="name" type="text" class="form-control"
+                    pattern="^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$" id="inlineFormInput"
+                    placeholder="example.com" required>
+            </div>
+        </div>
+
+        <div class="col-auto mb-5 mt-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Record</div>
+                </div>
+                <select name="type" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                    <option value="255" selected>ALL</option>
+                    <option value="1">A</option>
+                    <option value="28">AAAA</option>
+                    <option value="15">MX</option>
+                    <option value="2">NS</option>
+                    <option value="16">TXT</option>
+                    <option value="5">CNAME</option>
+                    <option value="12">PTR</option>
+                    <option value="6">SOA</option>
+                    <option value="257">CAA</option>
+                    <option value="25">KEY</option>
+                    <option value="48">DNSKEY</option>
+                    <option value="13">HINFO</option>
+                    <option value="17">RP</option>
+                    <option value="18">AFSDB</option>
+                    <option value="24">SIG</option>
+                    <option value="29">LOC</option>
+                    <option value="33">SRV</option>
+                    <option value="35">NAPTR</option>
+                    <option value="36">KX</option>
+                    <option value="37">CERT</option>
+                    <option value="39">DNAME</option>
+                    <option value="42">APL</option>
+                    <option value="43">DS</option>
+                    <option value="44">SSHFP</option>
+                    <option value="45">IPSECKEY</option>
+                    <option value="46">RRSIG</option>
+                    <option value="47">NSEC</option>
+                    <option value="49">DHCID</option>
+                    <option value="50">NSEC3</option>
+                    <option value="51">NSEC3PARAM</option>
+                    <option value="52">TLSA</option>
+                    <option value="53">SMIMEA</option>
+                    <option value="55">HIP</option>
+                    <option value="59">CDS</option>
+                    <option value="60">CDNSKEY</option>
+                    <option value="61">OPENPGPKEY</option>
+                    <option value="62">CSYNC</option>
+                    <option value="63">ZONEMD</option>
+                    <option value="64">SVCB</option>
+                    <option value="65">HTTPS</option>
+                    <option value="108">EUI48</option>
+                    <option value="109">EUI64</option>
+                    <option value="249">TKEY</option>
+                    <option value="250">TSIG</option>
+                    <option value="256">URI</option>
+                    <option value="32768">TA</option>
+                    <option value="32769">DLV</option>
+                    <option value="252">AXFR</option>
+                    <option value="251">IXFR</option>
+                    <option value="41">OPT</option>
+                    <option value="3">MD</option>
+                    <option value="4">MF</option>
+                    <option value="254">MAILA</option>
+                    <option value="7">MB</option>
+                    <option value="8">MG</option>
+                    <option value="9">MR</option>
+                    <option value="14">MINFO</option>
+                    <option value="253">MAILB</option>
+                    <option value="11">WKS</option>
+                    <option value="32">NB</option>
+                    <option value="33">NBSTAT</option>
+                    <option value="10">NULL</option>
+                    <option value="38">A6</option>
+                    <option value="30">NXT</option>
+                    <option value="19">X25</option>
+                    <option value="20">ISDN</option>
+                    <option value="21">RT</option>
+                    <option value="22">NSAP</option>
+                    <option value="23">NSAPPTR</option>
+                    <option value="26">PX</option>
+                    <option value="31">EID</option>
+                    <option value="32">NIMLOC</option>
+                    <option value="34">ATMA</option>
+                    <option value="40">SINK</option>
+                    <option value="27">GPOS</option>
+                    <option value="100">UINFO</option>
+                    <option value="101">UID</option>
+                    <option value="102">GID</option>
+                    <option value="103">UNSPEC</option>
+                    <option value="99">SPF</option>
+                    <option value="56">NINFO</option>
+                    <option value="57">RKEY</option>
+                    <option value="58">TALINK</option>
+                    <option value="104">NID</option>
+                    <option value="105">L32</option>
+                    <option value="106">L64</option>
+                    <option value="107">LP</option>
+                    <option value="259">DOA</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="col-auto mb-5 mt-3">
+            <button type="submit" class="btn btn-info">Submit</button>
+        </div>
+    </div>
+</form>

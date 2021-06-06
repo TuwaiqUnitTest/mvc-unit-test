@@ -1,0 +1,54 @@
+@*****************@
+@* Header & Logo *@
+@*****************@
+<div class="mb-4">
+    <h1 class="display-4">
+        <img src="/assets/whois.png" height="80rem" alt="whois icon">
+        WHOIS
+    </h1>
+</div>
+
+
+@*******************@
+@* Results Section *@
+@*******************@
+<div class="mb-4">
+    <h2 class="display-6">
+        <img src="/assets/results.png" height="40rem" alt="results icon">
+        Results
+    </h2>
+</div>
+<pre class="text-light"><code>@(((WhoisRecord)ViewData["record"]).Content)</code></pre>
+
+
+@******************@
+@* Lookup Section *@
+@******************@
+<div class="mb-4">
+    <h2 class="display-6">
+        <img src="/assets/lookup.png" height="40rem" alt="lookup icon">
+        Lookup
+    </h2>
+</div>
+<p>
+    Use the tool below to lookup WHOIS records for a specific domain. Results will be cached in our database for faster
+    retrival next time the record is requested by you or another user.
+</p>
+<form method="GET" action="/Whois/Lookup">
+    <div class="form-row align-items-center justify-content-center">
+        <div class="col-auto mb-5 mt-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Domain</div>
+                </div>
+                <input name="name" type="text" class="form-control"
+                    pattern="^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$" id="inlineFormInput"
+                    placeholder="example.com" required>
+            </div>
+        </div>
+
+        <div class="col-auto mb-5 mt-3">
+            <button type="submit" class="btn btn-info">Submit</button>
+        </div>
+    </div>
+</form>
