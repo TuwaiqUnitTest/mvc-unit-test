@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{D199611B-7C5B-4B07-99B2-47E7DF904B57}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyProject/Controllers/WelcomeController.cs">
+    <Files>
+      <File FileName="MyProjectTests/UnitTest1.cs" Line="10" Column="10" />
+      <File FileName="MyProject/Controllers/WelcomeController.cs" Line="1" Column="1" />
+      <File FileName="MyProject/Views/Welcome/Index.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyProject" expanded="True">
+            <Node name="MyProject" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="WelcomeController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Welcome" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="MyProjectTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyProjectTests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyProject FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
