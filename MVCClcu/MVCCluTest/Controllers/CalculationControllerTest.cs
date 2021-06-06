@@ -5,7 +5,7 @@ namespace MVCClcu
 {
 
     [TestFixture]
-    public class MathControllerTest
+    public class CalculationControllerTest
         //WE used AAA
     {
         [Test]
