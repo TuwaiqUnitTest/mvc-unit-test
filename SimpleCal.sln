@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCal", "SimpleCal\SimpleCal.csproj", "{E2561C05-6093-4DF6-A7F2-7849E1D91C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSimpleCal", "TestSimpleCal\TestSimpleCal.csproj", "{E3CB578A-A3C8-41F5-AFEE-DB45FF665EAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2561C05-6093-4DF6-A7F2-7849E1D91C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2561C05-6093-4DF6-A7F2-7849E1D91C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2561C05-6093-4DF6-A7F2-7849E1D91C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2561C05-6093-4DF6-A7F2-7849E1D91C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CB578A-A3C8-41F5-AFEE-DB45FF665EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CB578A-A3C8-41F5-AFEE-DB45FF665EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CB578A-A3C8-41F5-AFEE-DB45FF665EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CB578A-A3C8-41F5-AFEE-DB45FF665EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD187411-BC2A-4C4D-B981-752CCFB63830}
+	EndGlobalSection
+EndGlobal

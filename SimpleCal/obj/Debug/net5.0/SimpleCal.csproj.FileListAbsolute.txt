@@ -1,0 +1,80 @@
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/appsettings.Development.json
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/appsettings.json
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.deps.json
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.runtimeconfig.json
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.runtimeconfig.dev.json
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.dll
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/ref/SimpleCal.dll
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.pdb
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.Views.dll
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.Views.pdb
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.csprojAssemblyReference.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.AssemblyInfoInputs.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.AssemblyInfo.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.csproj.CoreCompileInputs.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.MvcApplicationPartsAssemblyInfo.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorAssemblyInfo.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorAssemblyInfo.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/staticwebassets/SimpleCal.StaticWebAssets.Manifest.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/staticwebassets/SimpleCal.StaticWebAssets.xml
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/scopedcss/bundle/SimpleCal.styles.css
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.TagHelpers.input.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.TagHelpers.output.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorCoreGenerate.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/_loginPartial.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorTargetAssemblyInfo.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorTargetAssemblyInfo.cs
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.Views.pdb
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.dll
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/ref/SimpleCal.dll
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.pdb
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.genruntimeconfig.cache
+/Users/afra/Desktop/UnitTestsProjects/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.csproj.CopyComplete
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.csprojAssemblyReference.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.AssemblyInfoInputs.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.AssemblyInfo.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.csproj.CoreCompileInputs.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.MvcApplicationPartsAssemblyInfo.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorAssemblyInfo.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorAssemblyInfo.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.dll
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/ref/SimpleCal.dll
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.pdb
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/appsettings.Development.json
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/appsettings.json
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.deps.json
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.runtimeconfig.json
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.runtimeconfig.dev.json
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.dll
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/ref/SimpleCal.dll
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.pdb
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.Views.dll
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/bin/Debug/net5.0/SimpleCal.Views.pdb
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/staticwebassets/SimpleCal.StaticWebAssets.Manifest.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/staticwebassets/SimpleCal.StaticWebAssets.xml
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/scopedcss/bundle/SimpleCal.styles.css
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.TagHelpers.input.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.TagHelpers.output.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorCoreGenerate.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/_loginPartial.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorTargetAssemblyInfo.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.RazorTargetAssemblyInfo.cs
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.Views.pdb
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.genruntimeconfig.cache
+/Users/afra/Desktop/BootCamp Refrence/Unit Test/Unit Test Projects/Project01/SimpleCal/SimpleCal/obj/Debug/net5.0/SimpleCal.csproj.CopyComplete
