@@ -77,7 +77,7 @@ namespace MVCClcu
         }
         
         [Test]
-        public void DoubleNumber()
+        public void DoubleNumberTest()
         {
             int res;
 
